@@ -1,0 +1,86 @@
+h1{
+    font-family: 'inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#hero {
+    width: 592px;
+    margin: 0px auto 72px;
+
+    /* 
+    fazer um 'margin: 0px auto 72px;' é a mesma coisa de fazer um:
+     margin-top: 0;
+     margin-rigth: auto;
+     margin--bottom: 72px
+     margin-left: auto;
+      */
+    
+}
+
+#hero img {
+    margin-bottom: 72px;
+}
+
+span, a {
+    color: #ff9900;
+}
+
+p, #footer {
+    color: #7d7987;
+    line-height: 28px;
+    font-size: 14px;
+    
+}
+
+
+
+
+#footer a + a {
+    margin-left: 28px;
+}
+
+#footer #line { 
+    width: 568px;
+    height: 0px;
+    margin: 0px auto 8px;
+
+    /*
+    margin: 0px auto 8px; 
+    0px em cima
+    auto nos lados
+    8px em baixo 
+    */
+
+    border: 1px solid #eceff2;
+}
+
+#bolinhas {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+
+
+/*
+Para 'id' no css se usa '#' 
+para 'class' no css se usa '.'
+*/
+
+ 
